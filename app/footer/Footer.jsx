@@ -17,7 +17,7 @@ export default function Footer() {
                 }
                 color="white"
               />
-              <Button variant="secondary">Subscribe to Newsletter</Button>
+              <Button variant="primary">Subscribe to Newsletter</Button>
             </div>
           </div>
         </div>

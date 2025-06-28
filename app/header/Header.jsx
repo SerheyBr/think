@@ -19,9 +19,8 @@ export default function Header() {
           <nav>
             <Link href="/">Home</Link>
             <Link href="/services">Services</Link>
-            <Link href="/contacts">Insights</Link>
-            <Link href="/contacts">Contact</Link>
-            <Link href="/contacts">Контакты</Link>
+            <Link href="/">Insights</Link>
+            <Link href="/">Contact</Link>
           </nav>
           <Button variant="btn-header">Book Consultation</Button>
         </div>
