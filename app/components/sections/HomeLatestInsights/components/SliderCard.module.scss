@@ -1,0 +1,50 @@
+.sliderCard {
+  border-radius: 20px;
+  background: #fff;
+  overflow: hidden;
+  height: 450px;
+  display: flex;
+  flex-direction: column;
+  &__info {
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+  }
+  &__subtitle {
+    color: #6b7280;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 100%; /* 16px */
+    margin-bottom: 20px;
+  }
+  &__title {
+    color: var(--Dark-Blue, #00112d);
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 130%; /* 26px */
+    flex-grow: 1;
+  }
+  &__link {
+    //  margin-top: auto;
+    color: #1e3a8a;
+    font-size: 16px;
+    font-weight: 700;
+    cursor: pointer;
+    transition: all 0.3s;
+    display: flex;
+    align-items: center;
+    svg {
+      margin-left: 10px;
+    }
+    svg path {
+      transition: all 0.3s;
+    }
+    &:hover {
+      color: #1e3b8a8e;
+    }
+    &:hover svg path {
+      stroke: #1e3b8a8e;
+    }
+  }
+}

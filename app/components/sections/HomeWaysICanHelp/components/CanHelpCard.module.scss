@@ -1,0 +1,32 @@
+.canHelpCard {
+  padding: 30px 30px 35px 30px;
+  border-radius: 20px;
+  border: 1px solid var(--Grey-2, #e4e4e4);
+  box-shadow: 0px 4px 12px 0px rgba(13, 10, 44, 0.06);
+  &__icon {
+    border-radius: 15px;
+    background: var(--Dark-Blue, #00112d);
+    width: 60px;
+    height: 60px;
+    overflow: hidden;
+    margin-bottom: 26px;
+
+    img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+  }
+  &__title {
+    color: var(--Dark-Blue, #00112d);
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 100%; /* 20px */
+    margin-bottom: 20px;
+  }
+  &__text {
+    color: var(--Dark-Blue, #00112d);
+    font-size: 16px;
+    line-height: 150%; /* 24px */
+  }
+}

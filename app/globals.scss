@@ -1,0 +1,41 @@
+@import "/styles/reset";
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
+
+:root {
+  --orange: #ff9335;
+  --dark-blue: #00112d;
+  --grey-1: #f3f4f6;
+  --grey-2: #e4e4e4;
+  --green: #76fcab;
+  --BG_Linear: linear-gradient(98deg, #000922 -32.18%, #002252 92.59%);
+  --Dark-Blue: #00112d;
+  --Grey-1: #f3f4f6;
+  --Grey-2: #e4e4e4;
+}
+
+:root {
+  --font-family: "Roboto", sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh; /* Важно! */
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+  overflow-x: hidden;
+}
+
+main {
+  flex: 1;
+}
+
+.container {
+  max-width: 1180px;
+  margin: 0 auto;
+  padding: 0 20px;
+}

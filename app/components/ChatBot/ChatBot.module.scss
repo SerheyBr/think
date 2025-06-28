@@ -1,0 +1,20 @@
+.chatBot {
+  position: fixed;
+  z-index: 10;
+  bottom: 60px;
+  right: 80px;
+  display: flex;
+  width: 60px;
+  height: 60px;
+  padding: 15px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 30px;
+  background: var(--Green, #76fcab);
+  box-shadow: 0px 4px 20px 0px rgba(0, 0, 0, 0.15);
+  transition: all 0.3s;
+  cursor: pointer;
+  &:hover {
+    background: #76fcac8e;
+  }
+}
