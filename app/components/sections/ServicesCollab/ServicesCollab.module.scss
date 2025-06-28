@@ -1,0 +1,9 @@
+.servicesCollab {
+  background: #f6f6f6;
+  padding: 120px 0;
+  &__grid {
+    display: grid;
+    gap: 30px;
+    grid-template-columns: repeat(auto-fit, minmax(555px, 1fr));
+  }
+}

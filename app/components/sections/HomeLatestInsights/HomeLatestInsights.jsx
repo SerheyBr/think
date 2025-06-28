@@ -64,11 +64,6 @@ export default function HomeLatestInsights() {
     <section className={styles.homeLatestInsights}>
       <div className="container">
         <div className={styles.homeLatestInsights__wrapper}>
-          {/* <h5 className={styles.homeLatestInsights__title}>Latest Insights</h5>
-          <p className={styles.homeLatestInsights__subtitle}>
-            Exploring the intersection of AI, business strategy, and human
-            potential
-          </p> */}
           <SectionHeader
             title={"Latest Insights"}
             subtitle={
@@ -78,7 +73,6 @@ export default function HomeLatestInsights() {
           <div className={styles.homeLatestInsights__slider}>
             <Swiper
               navigation={{
-                // 2. Конфигурация стрелок
                 nextEl: ".swiper-button-next-custom",
                 prevEl: ".swiper-button-prev-custom",
                 disabledClass: "swiper-button-disabled",

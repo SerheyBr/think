@@ -1,0 +1,16 @@
+.servicesServ {
+  padding: 100px 0 130px 0;
+  &__list {
+    border-radius: 20px;
+    background: #fff;
+    box-shadow: 0px 4px 12px 0px rgba(13, 10, 44, 0.06);
+    padding: 46px 47px;
+    li {
+      padding: 15px 0;
+      text-align: center;
+      &:not(:last-child) {
+        border-bottom: 1px solid #efefef;
+      }
+    }
+  }
+}
